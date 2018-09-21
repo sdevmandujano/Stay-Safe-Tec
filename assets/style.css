@@ -1,0 +1,87 @@
+.ButtonPanel {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    }
+
+.detailsCard2 {
+    position:fixed;
+    width: 290px;
+    height: 350px;
+    top: 120px;
+    bottom: 16px;
+    right:10px;
+    z-index: 30;
+    font-family: sans-serif;
+    overflow-y: scroll;
+}
+
+.detailsCard {
+    position:fixed;
+    top: 120px;
+    left:10px;
+    z-index: 10;
+    }
+
+
+
+    #textTwitter {
+   
+        text-align: left;
+        margin-left:40px;
+    
+    }
+    
+    #textDanger {
+       
+    align-items: center;
+    padding-left:30px;
+    
+    }
+    
+    #picTwitter {
+        margin-left:40px;
+    }
+    
+    #picDanger {
+        padding-left:30px;
+    
+    
+    }
+    
+    .ButtonPanel-brand1 {
+        color: white;
+        line-height: 15px;
+        text-align: center;
+        padding-right:50px;
+    }
+    
+    .ButtonPanel-brand2 {
+         color: white;
+        line-height: 18px;
+        text-align: center;
+        padding-right:50px;
+        max-height: 120px;
+    
+    }
+    
+    .botones {
+        max-height: 10px;
+    }
+
+    .detailsCard{
+        display: none;
+    }
+
+    .detailsCard2{
+        display: none;
+    }
+
+    .btn {
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    @media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ }

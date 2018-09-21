@@ -1,0 +1,10 @@
+
+TWITTER API AUTH
+
+consumer_key="rGLXVdjmyyO59g1yvZskv39Ad"
+consumer_secret="yZlMRubuuVSi2RPP5T67svJsbHNPJ9kJLrb0NA3IM5jDkY2TCy"
+access_token="979050268124852225-kzJPEmC5ysS6X37a5n455t1bLGXuGAY"
+access_token_secret="NGyFZY58WcFxlJzewGIKv22r3AX0tQwcPT1Qxk1FDbB3g"
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
